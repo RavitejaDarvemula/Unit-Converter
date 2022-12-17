@@ -1,0 +1,86 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 80vh;
+  /* background-color: #6943ff; */
+}
+.header {
+  /* width: 100%; */
+  height: 285px;
+  background-color: #6943ff;
+  overflow: hidden;
+}
+.main {
+  margin-top: 60px;
+}
+.main > h1 {
+  color: #ffff;
+}
+input {
+  color: white;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 9px;
+}
+.main button {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 30px;
+  border-radius: 9px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.section {
+  width: 100%;
+  height: 100%;
+  background-color: #1f2937;
+  overflow: hidden;
+}
+.length {
+  background-color: #273549;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border-radius: 9px;
+  padding: 15px;
+}
+#lh1 {
+  color: white;
+  /* font-size: 20px; */
+}
+#volume-el,
+#mass-el,
+#length-el {
+  color: white;
+}
+
+.volume {
+  background-color: #273549;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border-radius: 9px;
+  padding: 15px;
+}
+.mass {
+  background-color: #273549;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border-radius: 9px;
+  padding: 15px;
+}
